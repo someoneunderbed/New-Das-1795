@@ -76,6 +76,7 @@ const arra = [
   },
 ];
 
+// Selectors
 let plansImg = document.querySelector(".plans-div");
 let blck = document.querySelector(".txt-block");
 let txt = document.querySelector(".logo-txt");
@@ -133,7 +134,6 @@ arra.map((elem) => {
   nameZ.append(block3);
   block3.append(btn2);
   block3.append(btnB);
-
   // Something New
   btn1.addEventListener("click", () => {
     let blos = document.createElement("div");
